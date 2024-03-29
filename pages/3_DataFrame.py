@@ -23,7 +23,6 @@ st.write("Using st.table(dataframe):")
 st.table(df.head(5))
 st.divider()
 
-st.markdown("#### Using AgGrid:")
-df1 = pd.read_csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/airline-safety/airline-safety.csv')
-AgGrid(df1)
+# st.markdown("#### Using AgGrid:")
+AgGrid(df)
 
